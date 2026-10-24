@@ -12,6 +12,7 @@ import {
   IoMoon,
 } from "react-icons/io5";
 import { TbFolder, TbFolderFilled } from "react-icons/tb";
+import { FiCode } from "react-icons/fi";
 
 export const siteConfig: SiteConfigType = {
   name: "Cinextma",
@@ -47,6 +48,12 @@ export const siteConfig: SiteConfigType = {
       href: "/about",
       icon: <IoInformationCircleOutline className="size-full" />,
       activeIcon: <IoInformationCircle className="size-full" />,
+    },
+    {
+      label: "Developers",
+      href: "/developers",
+      icon: <FiCode className="size-full" />,
+      activeIcon: <FiCode className="size-full" />,
     },
   ],
   themes: [
